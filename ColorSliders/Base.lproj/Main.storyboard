@@ -30,19 +30,22 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="33.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHC-tI-AN4">
-                                                        <rect key="frame" x="0.0" y="5" width="60" height="23.5"/>
+                                                        <rect key="frame" x="0.0" y="5" width="0.0" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFN-DL-pa7">
-                                                        <rect key="frame" x="70" y="5" width="39" height="23.5"/>
+                                                        <rect key="frame" x="10" y="5" width="11" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ypw-pc-XZ4">
-                                                        <rect key="frame" x="117" y="2" width="267" height="31"/>
+                                                        <rect key="frame" x="29" y="2" width="355" height="31"/>
+                                                        <connections>
+                                                            <action selector="sliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="2c5-Zi-j5o"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -50,19 +53,22 @@
                                                 <rect key="frame" x="0.0" y="49.5" width="382" height="33.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5u-4M-Wlv">
-                                                        <rect key="frame" x="0.0" y="5" width="60" height="23.5"/>
+                                                        <rect key="frame" x="0.0" y="5" width="0.0" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHE-AG-cgg">
-                                                        <rect key="frame" x="70" y="5" width="39" height="23.5"/>
+                                                        <rect key="frame" x="10" y="5" width="11" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0bF-py-hmt">
-                                                        <rect key="frame" x="117" y="2" width="267" height="31"/>
+                                                        <rect key="frame" x="29" y="2" width="355" height="31"/>
+                                                        <connections>
+                                                            <action selector="sliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="Eov-40-tJc"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -70,19 +76,22 @@
                                                 <rect key="frame" x="0.0" y="99" width="382" height="33.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo2-kw-n90">
-                                                        <rect key="frame" x="0.0" y="5" width="60" height="23.5"/>
+                                                        <rect key="frame" x="0.0" y="5" width="0.0" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBg-IT-ntW">
-                                                        <rect key="frame" x="70" y="5" width="39" height="23.5"/>
+                                                        <rect key="frame" x="10" y="5" width="11" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="E4W-VP-i7D">
-                                                        <rect key="frame" x="117" y="2" width="267" height="31"/>
+                                                        <rect key="frame" x="29" y="2" width="355" height="31"/>
+                                                        <connections>
+                                                            <action selector="sliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="LPd-pa-K86"/>
+                                                        </connections>
                                                     </slider>
                                                 </subviews>
                                             </stackView>
@@ -106,6 +115,15 @@
                             <constraint firstItem="gBc-vV-Qp8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yAI-hD-cTw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueLabel" destination="RBg-IT-ntW" id="JjK-mh-gIJ"/>
+                        <outlet property="blueSlider" destination="E4W-VP-i7D" id="aTL-VN-glR"/>
+                        <outlet property="colorView" destination="7d5-ko-C85" id="iZ2-nf-QgI"/>
+                        <outlet property="greenLabel" destination="eHE-AG-cgg" id="nms-e7-XHa"/>
+                        <outlet property="greenSlider" destination="0bF-py-hmt" id="Lzw-7Q-5K8"/>
+                        <outlet property="redLabel" destination="aFN-DL-pa7" id="ues-j5-puF"/>
+                        <outlet property="redSlider" destination="Ypw-pc-XZ4" id="hde-Ef-SXj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
